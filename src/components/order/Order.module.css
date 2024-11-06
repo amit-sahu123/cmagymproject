@@ -1,0 +1,6 @@
+.ordercontainer{
+    width: 1000px;
+    margin: 60px auto;
+    display: flex;
+    gap: 30px;
+}

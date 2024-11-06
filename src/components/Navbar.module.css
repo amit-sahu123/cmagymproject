@@ -1,0 +1,13 @@
+.navcontainer{
+    padding: 50px 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.navbtn{
+    padding: 13px 17px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}

@@ -1,0 +1,52 @@
+.scheduleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 100px;
+  }
+  .scheduleheading{
+    font-size: 24px;
+  }
+  
+  .scheduleItem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .time {
+    width: 80px;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .image {
+    border-radius: 50%;
+    margin: 0 10px;
+    overflow: hidden;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .classTitle {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  
+  .slotdata {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  
+  .duration {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  

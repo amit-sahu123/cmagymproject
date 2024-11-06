@@ -1,0 +1,46 @@
+.card {
+    margin: auto;
+    position: relative;
+    width: 1000px;
+    height: 460px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  .overlay {
+    position: absolute;
+    top: 210px;
+    left: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  .pricetag {
+    padding: 7px 12px;
+    max-width: 180px;
+    display: inline-block;
+    background: rgb(150, 150, 150);
+    border-radius: 15px;
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  .pricetag del {
+    color: rgba(209, 204, 204, 0.6); 
+    font-size: 14px;
+    margin-left: 8px;
+  }
+
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 4px 0px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    font-family: "geistSans";
+  }
+  
